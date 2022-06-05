@@ -33,3 +33,5 @@ D:\Programming Material\dotNet Countries\CountriesAPI\bin\Debug\net6.0\Microsoft
 D:\Programming Material\dotNet Countries\CountriesAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
 D:\Programming Material\dotNet Countries\CountriesAPI\bin\Debug\net6.0\MySqlConnector.dll
 D:\Programming Material\dotNet Countries\CountriesAPI\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\Programming Material\dotNet Countries\CountriesAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Programming Material\dotNet Countries\CountriesAPI\bin\Debug\net6.0\RestSharp.dll
