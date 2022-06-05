@@ -1,5 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 using RestSharp;
+using Newtonsoft.Json;
 
 namespace CountriesAPI.Controllers
 {
@@ -21,7 +24,12 @@ namespace CountriesAPI.Controllers
             var request = new RestRequest();
             request.Method = Method.Get;
             RestResponse response = await client.ExecuteAsync(request);
-            return Ok(response.Content);
+            var responseString = response.Content;
+
+
+            return Ok(
+                responseString
+                );
         }
     }
 }
