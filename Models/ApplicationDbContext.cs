@@ -7,5 +7,7 @@
         }
         public DbSet<Country> Countries { get; set; }
         public DbSet<Population> Populations { get; set; }
+        public DbSet<ExternalAPIResponse> APIResponses { get; set; }
+
     }
 }

@@ -24,6 +24,5 @@ namespace CountriesAPI.Controllers
                 populations
             );
         }
-
     }
 }
